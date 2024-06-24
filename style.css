@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0; 
+    height: 100vh; 
+    background-color: black;
+}
+
+#car-image {
+    position: relative; 
+    border: 2px solid black;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+#ultimo-sinal{
+    font-size: 20px;
+    color: white;
+    width: 210px;
+    position: absolute;
+}
+
+#velocidade-max{
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    position: absolute;
+}
+
+#combustivel{
+    font-size: 20px;
+    color: white;
+    width: 200px;
+    position: absolute;
+}
+
+#km-rodado{
+    font-size: 20px;
+    color: white;
+    width: 170px;
+    position: absolute;
+}
+
+#voltagem-bateria{
+    font-size: 20px;
+    color: white;
+    width: 250px;
+    position: absolute;
+}
+#IoT-desb {
+    font-size: 20px;
+    color: green;
+    width: 170px;
+    position: absolute;
+}
+
+#IoT-bloq {
+    font-size: 20px;
+    color: red;
+    width: 150px;
+    position: absolute;
+}
+
+#car-select {
+    width: 150px;
+    height: 60px;
+    font-size: 32px;
+    border-radius: 50px;
+    border: 1px solid blue;
+    left: 50px;
+    position: absolute;
+}
+
+.containerInfoCarro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    position: absolute;
+}
